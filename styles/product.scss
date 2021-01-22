@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+@import "var";
+.page {
+  margin-top: 60px;
+  display: flex;
+  input[id='category'] {
+    display: none;
+  }
+  input[id='brand'] {
+    display: none;
+  }
+  input[id='designer'] {
+    display: none;
+  }
+  .side-menu {
+    .side-menu__button {
+      border-left: 5px solid #f16d7f;
+      border-bottom: 1px solid #ebebeb;
+      i {
+        margin-left: 130px;
+      }
+      label {
+        margin-left: 10px;
+        font-size: 14px;
+        font-family: $font-stack;
+        color: #6f6e6e;
+        font-weight: 700;
+        text-transform: uppercase;
+        cursor: pointer;
+      }
+      .side-menu__none {
+        display: none;
+        margin-top: 22px;
+        transition-duration: 1s;
+        .side-menu__none--flex {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+      input:checked ~ div {
+        display: block;
+      }
+    }
+  }
+}

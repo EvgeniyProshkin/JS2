@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+@import 'var.scss';
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+.shoppingAdress {
+  margin-top: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .shoppingAdress__1140px {
+    width: 1140px;
+    input[id=checkbox] {
+    display: none;
+    }
+    label {
+      font-size: 16px;
+      font-family: $font-stack;
+      font-weight: 700;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+    .shoppingAdress__none {
+      display: none;
+      transition-duration: 0.5s;
+      margin-top: 35px;
+    }
+    input:checked ~ div {
+      display: block;
+    }
+    .shoppingAdress__bye {
+      display: flex;
+      margin-left: 30px;
+      width: 1000px;
+      justify-content: space-between;
+      margin-bottom: 80px;
+        .shoppingAdress__bye--guestCheck {
+          font-family: $font-stack;
+          font-size: 13px;
+          font-weight: 400;
+          text-transform: uppercase;
+          margin-bottom: 34px;
+          span {
+            color: #b3b2b2;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 20px;
+            text-transform: none;
+          }
+        }
+        .checkbox {
+          label {
+            padding-left: 15px;
+          }
+          .checkbox__1--padding {
+            margin-left: 15px;
+          }
+          .checkbox__1 {
+           margin-bottom: 20px;
+          }
+
+          p {
+            font-family: $font-stack;
+            font-size: 13px;
+            font-weight: 400;
+            text-transform: uppercase;
+            span {
+              color: #b3b2b2;
+              font-size: 13px;
+              font-weight: 400;
+              line-height: 20px;
+              text-transform: none;
+            }
+          }
+          i {
+            font-size: 12px;
+          }
+          .checkbox__text {
+            margin: 35px 0;
+          }
+          .checkbox__button {
+            margin-top: 35px;
+            width: 180px;
+            height: 50px;
+            border: 1px solid #eaeaea;
+            background-color: #ffffff;
+            color: #4a4a4a;
+            font-family: $font-stack;
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            cursor: pointer;
+            .checkbox__button--p {
+              transition-duration: 0.4s;
+            }
+          }
+          .checkbox__button:hover {
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.23), 0 5px 5px rgba(0, 0, 0, 0.20);
+            .checkbox__button--p {
+              font-size: 20px;
+              color: #f16d7f;
+              font-family: $font-stack;
+              font-weight: 700;
+              text-transform: uppercase;
+            }
+          }
+        }
+        .shoppingAdress__bye--header {
+          font-family: $font-stack;
+          font-size: 13px;
+          font-weight: 400;
+          text-transform: uppercase;
+          margin-bottom: 23px;
+          span {
+            color: #b3b2b2;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 20px;
+            text-transform: none;
+          }
+        }
+      .registed {
+        p {
+          font-family: $font-stack;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 20px;
+          text-transform: uppercase;
+          span {
+            color: #ff0d0d;
+            font-family: $font-stack;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 20px;
+            text-transform: none;
+          }
+        }
+        .registed__email {
+          width: 390px;
+          height: 43px;
+          border: 1px solid #eaeaea;
+          background-color: #ffffff;
+          margin-top: 15px;
+          margin-bottom: 12px;
+        }
+        .registed__button {
+          margin-top: 20px;
+          display: flex;
+          align-items: center;
+          .form__button {
+            width: 180px;
+            height: 50px;
+            border: 1px solid #eaeaea;
+            background-color: #ffffff;
+            color: #4a4a4a;
+            font-family: $font-stack;
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            cursor: pointer;
+            .form__button--p {
+              transition-duration: 0.4s;
+            }
+          }
+          .form__button:hover {
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.23), 0 5px 5px rgba(0, 0, 0, 0.20);
+            .form__button--p {
+
+              font-size: 20px;
+              color: #f16d7f;
+              font-family: $font-stack;
+              font-weight: 700;
+              text-transform: uppercase;
+            }
+          }
+          a {
+            margin-left: 32px;
+            font-family: $font-stack;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+          }
+        }
+      }
+    }
+    .falseLine {
+      width: 1140px;
+      height: 1px;
+      background-color: #e8e8e8;
+      margin-top: 33px;
+      margin-bottom: 33px;
+    }
+    input[id=checkbox2] {
+      display: none;
+    }
+    .billingInfo__none {
+      display: none;
+      transition-duration: 0.5s;
+      margin-top: 35px;
+    }
+    input:checked ~ div {
+      display: block;
+    }
+    input[id=checkbox3] {
+      display: none;
+    }
+    .shoppingInfo__none {
+      display: none;
+      transition-duration: 0.5s;
+      margin-top: 35px;
+    }
+    input:checked ~ div {
+      display: block;
+    }
+    input[id=checkbox4] {
+      display: none;
+    }
+    .shoppingMethod__none {
+      display: none;
+      transition-duration: 0.5s;
+      margin-top: 35px;
+    }
+    input:checked ~ div {
+      display: block;
+    }
+    input[id=checkbox5] {
+      display: none;
+    }
+    .paymentMethod__none {
+      display: none;
+      transition-duration: 0.5s;
+      margin-top: 35px;
+    }
+    input:checked ~ div {
+      display: block;
+    }
+    input[id=checkbox6] {
+      display: none;
+    }
+    .order__none {
+      display: none;
+      transition-duration: 0.5s;
+      margin-top: 35px;
+    }
+    input:checked ~ div {
+      display: block;
+    }
+  }
+}

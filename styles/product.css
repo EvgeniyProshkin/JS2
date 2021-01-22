@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+.page {
+  margin-top: 60px;
+  display: flex;
+}
+.page input[id=category] {
+  display: none;
+}
+.page input[id=brand] {
+  display: none;
+}
+.page input[id=designer] {
+  display: none;
+}
+.page .side-menu .side-menu__button {
+  border-left: 5px solid #f16d7f;
+  border-bottom: 1px solid #ebebeb;
+}
+.page .side-menu .side-menu__button i {
+  margin-left: 130px;
+}
+.page .side-menu .side-menu__button label {
+  margin-left: 10px;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  color: #6f6e6e;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.page .side-menu .side-menu__button .side-menu__none {
+  display: none;
+  margin-top: 22px;
+  transition-duration: 1s;
+}
+.page .side-menu .side-menu__button .side-menu__none .side-menu__none--flex {
+  display: flex;
+  flex-direction: column;
+}
+.page .side-menu .side-menu__button input:checked ~ div {
+  display: block;
+}
+
+/*# sourceMappingURL=product.css.map */
